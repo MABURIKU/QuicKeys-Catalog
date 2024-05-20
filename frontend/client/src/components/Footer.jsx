@@ -10,12 +10,11 @@ function Footer() {
                 <img className="min-w-[200px] h-[35px] z-10" src="/src/assets/QuicKeys WORDMARK [Trademark].svg"/>
                 <div className="flex flex-col py-[10px] sm:flex-row lg:py-[0px]">
                     <NavLink className="Footer-Text" to="/"> Home </NavLink>
-                    <NavLink className="Footer-Text" to="/Build"> Build </NavLink>
-                    <NavLink className="Footer-Text" to="/Shop"> Shop </NavLink>
+                    <NavLink className="Footer-Text" to="/Catalog"> Catalog </NavLink>
                     <NavLink className="Footer-Text" to="/About"> About </NavLink>
                     <NavLink className="Footer-Text" to="/Contact-Us"> Contact Us </NavLink>
                 </div>
-                <p className="text-center opacity-50 pt-[5px] lg:w-[215px] lg:pt-[0px] lg:text-left">Built with passion for keyboard enthusiasts worldwide.</p>
+                <p className="text-center opacity-50 pt-[5px] lg:w-[215px] lg:pt-[0px] lg:text-left">Built with passion for keyboard enthusiasts in the Philippines.</p>
             </div>
 
             <div className="h-[1px] w-full bg-[#D4D1CD] opacity-50 my-[20px]"/>

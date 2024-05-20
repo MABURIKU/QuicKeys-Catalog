@@ -3,7 +3,7 @@ import React from 'react';
 import { Reveal } from '../Reveal';
 import transition from '../Transition';
 
-import BuildButton from '../BuildButton';
+import BrowseButton from '../BrowseButton';
 
 import QKSwitch from '../QKSwitch';
 
@@ -16,16 +16,16 @@ function Home() {
                     <div className="relative flex justify-center w-full z-[-10]">
                         <img className="w-[100%] max-w-[1600px]" src="./src/assets/QuicKeys WORDMARK.svg" alt="QuicKeys WORDMARK" />
                         <div className="absolute top-0 left-0 right-0 lg:right-[-550px] flex justify-center z-[-2] opacity-20 transition-all duration-500">
-                            <img className="w-[100%] max-w-[1200px] scale-[110%]" src="./src/assets/QuicKeys LOGOMARK [BG].svg" alt="QuicKeys LOGOMARK" />
+                            <img className="w-[100%] max-w-[1200px] lg:scale-[115%]" src="./src/assets/QuicKeys LOGOMARK [BG].svg" alt="QuicKeys LOGOMARK" />
                         </div>
                     </div>
                 </Reveal>
                 <Reveal>
                     <div className="flex justify-center w-full">
-                        <div className="flex w-[100%] max-w-[1600px] lg:px-[100px]">
+                        <div className="flex w-[100%] max-w-[1600px] lg:px-[100px] lg:py-[10px]">
                             <div className="Hero-Mobile lg:text-left lg:max-w-[550px] lg:text-[25px] z-[-10]">
                                 <p>
-                                    Ready to build the ultimate typing experience? Explore diverse range of keyboard components and accessories with QuicKeys today!
+                                    Transform your keyboard into a masterpiece. Start your journey with QuicKeys™ and explore our diverse range of components and accessories.
                                 </p>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ function Home() {
                 <Reveal>
                     <div className="flex justify-center w-full">
                         <div className="flex w-[100%] pt-[35px] max-w-[1600px] justify-center lg:justify-start lg:px-[100px] z-2">
-                            <BuildButton/>
+                            <BrowseButton/>
                         </div>
                     </div>
                 </Reveal>
@@ -106,7 +106,7 @@ function Home() {
                     <p className="flex justify-center lg:justify-start w-full max-w-[1600px] text-QKGreen text-[60px] font-semibold">
                         NEW ARRIVALS
                     </p>
-                    <div className="flex justify-center lg:justify-start w-full max-w-[1600px] opacity-50">
+                    <div className="flex justify-center lg:justify-start w-full max-w-[1600px] opacity-75">
                         <p className="max-w-[600px]">
                             <span className="font-medium">DISCLAIMER:</span> QuicKeys™ is an independent reseller and is not affiliated 
                             with the brands or their authorized distributors. 

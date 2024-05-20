@@ -21,8 +21,7 @@ function Navigation() {
           <NavLink to="/"> <img className="transition-all w-[75px]" src="/src/assets/QuicKeys LOGOMARK [MAIN].svg"/> </NavLink>
           <div className="hidden nm:block">
             <NavLink className="Navigation-Text" to="/"> Home </NavLink>
-            <NavLink className="Navigation-Text" to="/Build"> Build </NavLink>
-            <NavLink className="Navigation-Text" to="/Shop"> Shop </NavLink>
+            <NavLink className="Navigation-Text" to="/Catalog"> Catalog </NavLink>
             <NavLink className="Navigation-Text" to="/About"> About </NavLink>
             <NavLink className="Navigation-Text" to="/Contact-Us"> Contact Us </NavLink>
           </div>

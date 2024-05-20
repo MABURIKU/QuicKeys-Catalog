@@ -7,8 +7,7 @@ import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 
 import Home from './components/pages/Home';
-import Build from './components/pages/Build';
-import Shop from './components/pages/Shop';
+import Catalog from './components/pages/Catalog';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import LogIn from './components/pages/LogIn';
@@ -27,8 +26,7 @@ function App() {
   useEffect(() => {
     const pageTitles = {
       '/' : 'Home',
-      '/Build' : 'Keyboard Builder',
-      '/Shop' : 'Shop',
+      '/Catalog' : 'Catalog',
       '/About' : 'About Us',
       '/Contact-Us' : 'Contact Us',
 
@@ -56,8 +54,7 @@ function App() {
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Home />} />
-            <Route path="/Build" element={<Build />} />
-            <Route path="/Shop" element={<Shop />} />
+            <Route path="/Catalog" element={<Catalog />} />
             <Route path="/About" element={<About />} />
             <Route path="/Contact-Us" element={<Contact />} />
 

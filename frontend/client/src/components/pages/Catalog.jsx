@@ -5,7 +5,7 @@ import { apiClient } from '../../utils/ApiClient'
 import { Link } from 'react-router-dom';
 import AccordionFilter from '../AccordionFilter';
 
-function Shop() {
+function Catalog() {
   const [items, setItems] = useState([])
   const [currentPage, setCurrentPage] = useState(1)
   const [nextPage, setNextPage] = useState(null)
@@ -72,9 +72,9 @@ function Shop() {
         <section className="flex justify-center w-full">
                 <div className="bg-[#252525] bg-opacity-50 flex flex-col justify-end items-center w-full py-[50px] px-[25px] nm:px-[50px]">
                     <p className="flex justify-center lg:justify-start w-full max-w-[1600px] pt-[50px] text-QKGreen text-[60px] font-semibold">
-                        SHOP
+                        CATALOG
                     </p>
-                    <div className="flex justify-center lg:justify-start w-full max-w-[1600px] opacity-50">
+                    <div className="flex justify-center lg:justify-start w-full max-w-[1600px] opacity-75">
                         <p className="max-w-[600px]">
                             <span className="font-medium">DISCLAIMER:</span> QuicKeys™ is an independent reseller and is not affiliated 
                             with the brands or their authorized distributors. 
@@ -161,4 +161,4 @@ function Shop() {
   )
 }
 
-export default transition(Shop);
+export default transition(Catalog);
