@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* QuicKeys™ Color Theme */
+:root {
+    --QKGreen: 0, 255, 138;
+
+    --BGMain: 37, 37, 37;
+    --BGGradient: 63, 78, 90;
+    --HeavyMain: 35, 35, 35;
+
+    --MainText: 212, 209, 205;
+}
+
+body {
+    @apply bg-gradient-to-r from-BGMain to-BGGradient text-[18px] text-MainText
+}
+
+.Icon {
+    @apply h-[18px] w-auto opacity-50
+}
+
+/* Navigation Bar Styling */
+.Navigation {
+    @apply flex justify-between items-center p-[15px] font-medium
+} .Navigation-Text {
+    @apply px-[30px] text-center opacity-50 hover:opacity-100
+} .Navigation-Overlay {
+    @apply absolute top-0 z-[-5] bg-MainText/10 w-screen h-screen nm:hidden
+} .Nav-Icon {
+    @apply transition-all h-[30px] nm:w-[30px]
+} .active {
+    @apply opacity-100
+}
+
+/* Footer Styling */
+.Footer {
+    @apply bg-HeavyMain font-normal text-[12px] py-[25px] px-[25px] nm:px-[50px]
+} .Footer-Text {
+    @apply text-[14px] px-[30px] opacity-80 text-center py-[5px]
+}
+
+.Benefits {
+    @apply flex p-[25px] rounded-lg border-QKGreen border-4 md:flex-col gap-[20px] hover:scale-105 transition-all duration-300
+}
+
+/* Shop Item Card Styling */
+.ItemCard-Image-Shop {
+    @apply relative flex justify-center items-center overflow-hidden bg-HeavyMain mb-[5px] rounded-md
+}
+.ItemCard-Image-View {
+    @apply relative flex nm:min-w-[400px] nm:min-h-[400px] nm:w-[40%] nm:h-[40%] nm:max-w-[850px] nm:max-h-[850px] bg-HeavyMain rounded-md
+}
+.ItemCard-Name {
+    @apply text-[18px] font-medium py-[2px]
+}
+.ItemCard-Brand {
+    @apply text-sm text-QKGreen py-[2px]
+}
+.ItemCard-Price {
+    @apply text-[20px] font-bold
+}
+.ItemCard-Responsiveness {
+    @apply grid-cols-1 xsm:grid-cols-2 nm:grid-cols-4 lg:grid-cols-5
+}
+.ItemCard-Image-Cart {
+    @apply relative flex justify-center items-center overflow-hidden bg-HeavyMain rounded-md max-h-[130px] max-w-[130px] sm:max-h-[170px] sm:max-w-[170px] transition-all duration-300
+}
+.ItemCard-Image-Check-Out {
+    @apply relative flex justify-center items-center overflow-hidden bg-HeavyMain rounded-md max-h-[100px] max-w-[100px] sm:max-h-[100px] sm:max-w-[100px] transition-all duration-300
+}
+.ItemCard-Sold-Out {
+    @apply absolute bottom-0 left-0 m-[15px] px-[10px] py-[3px] bg-QKGreen text-BGMain text-sm font-medium rounded-full
+}
+
+.Quantity-Box {
+    @apply relative flex justify-center gap-[50px] border-MainText/50 border-2 px-[10px] py-[10px] w-[90px]
+}
+.Add-To-Cart-BTN {
+    @apply flex justify-center w-full max-w-[350px] bg-QKGreen text-HeavyMain font-medium p-[15px] nm:p-[10px] hover:bg-[#00EA7F] transition-all duration-100
+}
+
+.Cart-Main-Text {
+    @apply text-[80%] sm:text-[20px] font-semibold max-w-[400px] transition-all duration-300
+}
+
+/* Filter Styling */
+.Filter-Side {
+    @apply fixed h-[90%] sm:h-screen w-full sm:w-[450px] z-[50] bg-BGMain p-[25px] ml-[-25px]
+}
+.Filter-Text {
+    @apply text-[15px]
+}
+.Filter-Icon {
+    @apply h-[12px] w-[20px]
+}
+.Filter-Arrow {
+    @apply h-[25px] opacity-50 items-center transition-all transform
+}
+.Filter-Overlay {
+    @apply fixed h-screen w-screen z-[50] bg-MainText/10
+}
+.Filter-Apply-BTN {
+    @apply flex justify-center items-center w-full sm:w-[250px] bg-QKGreen hover:bg-[#00EA7F] text-BGMain font-medium p-[10px] rounded-sm
+}
+
+.Hero-Mobile {
+    @apply w-full pt-[35px] text-[20px] max-w-[1600px] text-center
+}
+.Hero-Icon-Hollow {
+    @apply flex flex-col justify-center min-h-[80px] min-w-[80px] max-h-[80px] max-w-[80px]
+}
+.Hero-Icon-Fill {
+    @apply flex flex-col justify-start min-h-[80px] min-w-[80px] max-h-[80px] max-w-[80px] md:max-w-[110px] md:justify-center
+}
+
+/* Password Mismatch Animation Keyframes*/
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-2.5px); }
+    50% { transform: translateX(2.5px); }
+    75% { transform: translateX(-2.5px); }
+    100% { transform: translateX(0); }
+}
+
+/* Page Transition Animation & Styling */
+.slide-in {
+    transform-origin: bottom;
+    @apply fixed top-0 left-0 w-full h-full bg-HeavyMain
+}
+
+.slide-out {
+    transform-origin: top;
+    @apply fixed top-0 left-0 w-full h-full bg-HeavyMain
+}
+
+/* QuicKeys Keycap Floating Animation Keyframes */
+@keyframes float {
+    0% { transform: translateY(-25px); }
+    50% { transform: translateY(25px); }
+    100% { transform: translateY(-25px); }
+}
+
+.float {
+    height: 700px;
+    width: 700px;
+    opacity: 0;
+    animation: float 5s ease-in-out infinite;
+}
+
+.checkbox {
+    @apply w-[15px] h-[15px] mt-[2.5px] appearance-none rounded-sm border-2 border-MainText/50 checked:bg-QKGreen checked:border-none
+}
