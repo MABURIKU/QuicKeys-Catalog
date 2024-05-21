@@ -61,11 +61,10 @@ function Home() {
                                     <img className="flex" src="./src/assets/icons/ICON - 1.png"/>
                                 </div>
                                 <div>
-                                    <p className="text-[30px] font-semibold mb-[5px] md:mb-[10px]">Hassle-Free</p>
+                                    <p className="text-[30px] font-semibold mb-[5px] md:mb-[10px]">User-Friendly</p>
                                     <p>
-                                        Experience hassle-free transactions, ensuring seamless shopping from start to finish. 
-                                        Enjoy streamlined processes for confident and convenient shopping, 
-                                        free from unnecessary complications.
+                                        Navigate our catalog with ease and discover your next favorite items effortlessly. 
+                                        Enjoy a seamless browsing experience, designed to make finding what you love effortless and enjoyable
                                     </p>
                                 </div>
                             </div>
@@ -74,11 +73,10 @@ function Home() {
                                     <img className="flex" src="./src/assets/icons/ICON - 2.png"/>
                                 </div>
                                 <div>
-                                    <p className="text-[30px] font-semibold mb-[5px] md:mb-[10px]">Easy Return</p>
+                                    <p className="text-[30px] font-semibold mb-[5px] md:mb-[10px]">Simple Wishlisting</p>
                                     <p>
-                                        Simplified returns for stress-free shopping. 
-                                        Enjoy a hassle-free process that ensures convenience, making exchanges and refunds easy. 
-                                        Experience seamless transactions with us.
+                                        Our simple wishlisting feature allows you to curate your own personalized keyboard build. 
+                                        Keep track of your desired components and easily share your build with the community.
                                     </p>
                                 </div>
                             </div>
