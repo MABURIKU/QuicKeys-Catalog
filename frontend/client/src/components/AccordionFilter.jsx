@@ -51,7 +51,7 @@ function AccordionFilter({ selectedBrands, setSelectedBrands, selectedTypes, set
         <>
             <div className="w-full py-[30px]">
 
-                <div className={brandOpen ? 'pb-[0px]' : 'pb-[25px]'}>
+                <div className={brandOpen ? 'pb-[5px]' : 'pb-[25px]'}>
                     <button onClick={() => setBrandOpen(!brandOpen)} className="flex justify-between w-full">
                         <span className="text-[20px] font-medium">BRAND</span>
                         <div className="flex justify-center items-center h-[30px] w-[30px]">
@@ -81,7 +81,7 @@ function AccordionFilter({ selectedBrands, setSelectedBrands, selectedTypes, set
                     </div>
                 </div>
 
-                <div className={typeOpen ? 'pb-[0px]' : 'pb-[25px]'}>
+                <div className={typeOpen ? 'pb-[5px]' : 'pb-[25px]'}>
                     <button onClick={() => setTypeOpen(!typeOpen)} className="flex justify-between w-full">
                         <span className="text-[20px] font-medium">TYPE</span>
                         <div className="flex justify-center items-center h-[30px] w-[30px]">

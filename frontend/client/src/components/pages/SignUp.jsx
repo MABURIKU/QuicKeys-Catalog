@@ -128,7 +128,7 @@ function SignUp() {
             <div className="relative flex justify-center w-full max-w-[510px]">
               {/* Email Input Box */}
               <input
-                type="text"
+                type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 onFocus={() => {setEmailActive(true); setEmailFocused(true);}} onBlur={() => {setEmailActive(false); setEmailFocused(false);}}

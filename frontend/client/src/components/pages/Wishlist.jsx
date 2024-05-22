@@ -4,7 +4,7 @@ import transition from '../Transition';
 import { apiClientWithCredentials } from '../../utils/ApiClient';
 import { NavLink } from 'react-router-dom';
 
-function Cart() {
+function Wishlist() {
   const [order, setOrder] = useState(null); 
 
   useEffect(() => {
@@ -215,12 +215,12 @@ function Cart() {
             <div className="flex flex-col justify-center items-center w-screen h-[90vh]">
               <div className="flex justify-center max-w-[1200px] mx-[15px]">
                 <div className="flex flex-col justify-center items-center">
-                  <p className="text-[70px] text-center font-semibold transition-all duration-300 mx-[20px] leading-none">Your <span className="text-QKGreen">Cart</span> is Empty.</p>
-                  <p className="flex text-center text-MainText/65 mt-[10px] transition-all duration-300">It appears that you haven't added items to your cart.</p>
-                  <NavLink className="flex justify-center mt-[25px]" to="/Shop">
+                  <p className="text-[70px] text-center font-semibold transition-all duration-300 mx-[20px] leading-none">Your <span className="text-QKGreen">Wishlist</span> is Empty.</p>
+                  <p className="flex text-center text-MainText/65 mt-[10px] transition-all duration-300">It appears that you haven't added items to your wishlist.</p>
+                  <NavLink className="flex justify-center mt-[25px]" to="/Catalog">
                     <div className="group text-center w-[250px] px-[50px] py-[10px] border-[3px] border-QKGreen hover:bg-QKGreen rounded-full transition-all duration-200">
                       <p className="text-[16px] sm:text-[18px] text-QKGreen group-hover:text-BGMain">
-                        Go to Shop
+                        Go to Catalog
                       </p>
                     </div>
                   </NavLink>
@@ -241,4 +241,4 @@ function Cart() {
   );
 }
 
-export default transition(Cart);
+export default transition(Wishlist);
