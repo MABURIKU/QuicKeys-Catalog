@@ -26,7 +26,7 @@ function Navigation() {
             <NavLink className="Navigation-Text" to="/Contact-Us"> Contact Us </NavLink>
           </div>
           <div className="flex gap-[20px]">
-            <NavLink to="/Cart"> <img className="Nav-Icon opacity-50 hover:opacity-100" src="/src/assets/icons/NAV - Cart.png" alt="Cart"/> </NavLink>
+            <NavLink to="/My-Wishlist"> <img className="Nav-Icon opacity-50 hover:opacity-100" src="/src/assets/icons/NAV - Heart.png" alt="Wishlist"/> </NavLink>
             <UserNav></UserNav>
           </div>
         </div>

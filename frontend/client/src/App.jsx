@@ -13,7 +13,7 @@ import Contact from './components/pages/Contact';
 import LogIn from './components/pages/LogIn';
 import SignUp from './components/pages/SignUp';
 import Item from './components/pages/Item';
-import Cart from './components/pages/Cart';
+import Wishlist from './components/pages/Wishlist';
 import CheckOut from './components/pages/CheckOut';
 import Profile from './components/pages/Profile';
 import Error from './components/pages/Error';
@@ -33,7 +33,7 @@ function App() {
       '/Log-In' : 'Log In',
       '/Sign-Up' : 'Create Account',
 
-      '/Cart' : 'My Cart',
+      '/My-Wishlist' : 'My Wishlist',
       '/Check-Out' : 'Order Check Out',
       '/Profile' : 'My Profile',
       '/Success' : 'Order Successful!',
@@ -62,7 +62,7 @@ function App() {
             <Route path="/Sign-Up" element={<SignUp />} />
 
             <Route path="/Item/:itemId" element={<Item />} />
-            <Route path="/Cart" element={<Cart />} />
+            <Route path="/My-Wishlist" element={<Wishlist />} />
             <Route path="/Check-Out" element={<CheckOut />} />
             <Route path="/Success" element={<Success />} />
             <Route path="/Profile" element={<Profile />} />
