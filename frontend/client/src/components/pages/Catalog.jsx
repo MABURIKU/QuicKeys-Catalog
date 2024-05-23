@@ -13,58 +13,58 @@ function Catalog() {
   const [selectedBrands, setSelectedBrands] = useState([])
   const [selectedTypes, setSelectedTypes] = useState([])
 
-  useEffect(() => {
-    const fetchItems = async () => {
-      try {
-        const response = await apiClient.get(`inventory/item/shop-list/?page=${currentPage}`)
-        setItems(response.data.results)
-        setNextPage(response.data.next)
-        setPreviousPage(response.data.previous)
-      } catch (error) {
-        console.error('Error fetching data:', error)
-      }
-    }
+  // useEffect(() => {
+  //   const fetchItems = async () => {
+  //     try {
+  //       const response = await apiClient.get(`inventory/item/shop-list/?page=${currentPage}`)
+  //       setItems(response.data.results)
+  //       setNextPage(response.data.next)
+  //       setPreviousPage(response.data.previous)
+  //     } catch (error) {
+  //       console.error('Error fetching data:', error)
+  //     }
+  //   }
 
-    fetchItems()
-  }, [currentPage])
+  //   fetchItems()
+  // }, [currentPage])
 
-  const goToNextPage = () => {
-    if (nextPage) {
-      setCurrentPage(currentPage + 1)
-    }
-  }
+  // const goToNextPage = () => {
+  //   if (nextPage) {
+  //     setCurrentPage(currentPage + 1)
+  //   }
+  // }
 
-  const goToPreviousPage = () => {
-    if (previousPage) {
-      setCurrentPage(currentPage - 1)
-    }
-  }
-  const [filterOpen, setFilterOpen] = useState(false);
+  // const goToPreviousPage = () => {
+  //   if (previousPage) {
+  //     setCurrentPage(currentPage - 1)
+  //   }
+  // }
+  // const [filterOpen, setFilterOpen] = useState(false);
 
-  const toggleFilter = () => {
-    let apiUrl = `inventory/item/shop-list/?page=${currentPage}`
+  // const toggleFilter = () => {
+  //   let apiUrl = `inventory/item/shop-list/?page=${currentPage}`
 
-    if (selectedBrands.length > 0) {
-      apiUrl += `&item_brand=${selectedBrands.join(',')}`
-    }
+  //   if (selectedBrands.length > 0) {
+  //     apiUrl += `&item_brand=${selectedBrands.join(',')}`
+  //   }
 
-    if (selectedTypes.length > 0) {
-      apiUrl += `&item_type=${selectedTypes.join(',')}`
-    }
+  //   if (selectedTypes.length > 0) {
+  //     apiUrl += `&item_type=${selectedTypes.join(',')}`
+  //   }
 
-    apiClient
-    .get(apiUrl)
-    .then(response => {
-      setItems(response.data.results);
-      setNextPage(response.data.next);
-      setPreviousPage(response.data.previous);
-    })
-    .catch(error => {
-      console.error('Error fetching filtered data:', error);
-    })
+  //   apiClient
+  //   .get(apiUrl)
+  //   .then(response => {
+  //     setItems(response.data.results);
+  //     setNextPage(response.data.next);
+  //     setPreviousPage(response.data.previous);
+  //   })
+  //   .catch(error => {
+  //     console.error('Error fetching filtered data:', error);
+  //   })
 
-    setFilterOpen(!filterOpen);
-  };
+  //   setFilterOpen(!filterOpen);
+  // };
 
   return (
       <>

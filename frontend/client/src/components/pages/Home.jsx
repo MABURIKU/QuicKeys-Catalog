@@ -10,7 +10,7 @@ import QKSwitch from '../QKSwitch';
 function Home() {
     return (
         <>
-            <section className="w-[100%] pt-[100px] px-[15px] nm:px-[50px] min-h-[1000px] overflow-hidden">
+            <section className="w-[100%] px-[15px] nm:px-[50px] min-h-[1000px] overflow-hidden">
 
                 <Reveal>
                     <div className="relative flex justify-center w-full z-[-10]">
