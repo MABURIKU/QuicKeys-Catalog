@@ -49,7 +49,7 @@ function LogIn() {
     
     <>
       <div className="flex justify-center items-center h-full w-full">
-        <div className="flex flex-col justify-center items-center w-screen h-screen p-[15px] min-h-[520px]">
+        <form className="flex flex-col justify-center items-center w-screen h-screen p-[15px] min-h-[520px]">
           
           <div className="flex justify-center text-[50px] font-bold py-[10px] text-center">LOG IN</div>
 
@@ -58,7 +58,7 @@ function LogIn() {
             <div className="relative flex justify-center w-full max-w-[400px]">
               {/* Email Input Box */}
               <input
-                type="text"
+                type="email"
                 value={credentials.email}
                 onChange={(e) => setCredentials({ ...credentials, email: e.target.value })}
                 onFocus={() => {setEmailActive(true); setEmailFocused(true);}} onBlur={() => {setEmailActive(false); setEmailFocused(false);}}
@@ -115,7 +115,7 @@ function LogIn() {
             <span className="pl-1"><NavLink to="/Sign-Up" className="text-[#00FF8A] hover:underline">Sign Up</NavLink></span>
           </div>
 
-        </div>
+        </form>
       </div>
     </>
   )
