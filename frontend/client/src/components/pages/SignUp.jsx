@@ -71,7 +71,7 @@ function SignUp() {
   return (
     <>
       <div className="flex justify-center items-center h-full w-full my-[25%] sm:my-0">
-        <div className="flex flex-col justify-center items-center w-screen h-screen p-[15px] min-h-[520px]">
+        <form className="flex flex-col justify-center items-center w-screen h-screen p-[15px] min-h-[520px]">
 
           <div className="flex justify-center text-[50px] font-bold py-[10px] text-center">CREATE ACCOUNT</div>
 
@@ -217,7 +217,7 @@ function SignUp() {
             <span className="pl-1"><NavLink to="/Log-In" className="text-[#00FF8A] hover:underline">Log In</NavLink></span>
           </div>
 
-        </div>
+        </form>
       </div>
     </>
   )
