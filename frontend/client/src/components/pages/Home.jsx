@@ -101,7 +101,7 @@ function Home() {
 
             <section className="flex justify-center w-full mb-[100px]">
                 <div className="bg-[#252525] bg-opacity-50 flex flex-col justify-center items-center w-full py-[50px] px-[25px] nm:px-[50px]">
-                    <p className="flex justify-center lg:justify-start w-full max-w-[1600px] text-QKGreen text-[60px] font-semibold">
+                    <p className="flex justify-center lg:justify-start w-full max-w-[1600px] text-QKGreen text-[45px] nm:text-[60px] font-semibold leading-none mb-[10px] transition-all duration-300">
                         NEW ARRIVALS
                     </p>
                     <div className="flex justify-center lg:justify-start w-full max-w-[1600px] opacity-75">
