@@ -1,11 +1,11 @@
 # QuicKeys™ Catalog
 
-![Last Commit](https://img.shields.io/github/last-commit/QuicKeys/quickeys?style=plastic&logo=github)
-![Forks](https://img.shields.io/github/forks/QuicKeys/quickeys?style=plastic&logo=github)
-![Issues](https://img.shields.io/github/issues/QuicKeys/quickeys?style=plastic&logo=github)
-![Issues Closed](https://img.shields.io/github/issues-closed/QuicKeys/quickeys?style=plastic&logo=github)
-![Pull Requests](https://img.shields.io/github/issues-pr/QuicKeys/quickeys?style=plastic&logo=github)
-![Pull Requests Closed](https://img.shields.io/github/issues-pr-closed/QuicKeys/quickeys?style=plastic&logo=github)
+![Last Commit](https://img.shields.io/github/last-commit/MABURIKU/QuicKeys-Catalog?style=plastic&logo=github)
+![Forks](https://img.shields.io/github/forks/MABURIKU/QuicKeys-Catalog?style=plastic&logo=github)
+![Issues](https://img.shields.io/github/issues/MABURIKU/QuicKeys-Catalog?style=plastic&logo=github)
+![Issues Closed](https://img.shields.io/github/issues-closed/MABURIKU/QuicKeys-Catalog?style=plastic&logo=github)
+![Pull Requests](https://img.shields.io/github/issues-pr/MABURIKU/QuicKeys-Catalog?style=plastic&logo=github)
+![Pull Requests Closed](https://img.shields.io/github/issues-pr-closed/MABURIKU/QuicKeys-Catalog?style=plastic&logo=github)
 
 ## About
 
@@ -23,6 +23,9 @@ QuicKeys™ Catalog is the ultimate platform for keyboard enthusiasts! QuicKeys�
 ## Database Diagram
 
 <img src="https://i.postimg.cc/s2BNMVCq/441275610-954161973075718-2179090809214109059-n.png">
+
+## Project Overview
+W.I.P. on Behance.net/MABURIKU
 
 
 
