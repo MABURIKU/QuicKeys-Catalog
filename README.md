@@ -24,7 +24,5 @@ QuicKeysâ„¢ Catalog is the ultimate platform for keyboard enthusiasts! QuicKeysâ
 
 <img src="https://i.postimg.cc/s2BNMVCq/441275610-954161973075718-2179090809214109059-n.png">
 
-## Project Preview
-
 
 
