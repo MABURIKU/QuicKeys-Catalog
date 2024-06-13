@@ -13,13 +13,6 @@
 
 QuicKeys™ Catalog is the ultimate platform for keyboard enthusiasts! QuicKeys™ Catalog is your one-stop destination for designing, customizing, and building your perfect keyboard tailored to your preferences. Users of the platform can also check individual keyboard parts and prebuilt keyboards.
 
-## How does it help?
-
-- ### Cost Transparency
-  Instant pricing estimates empower users to make informed decisions, avoiding unexpected costs and ensuring affordability.
-- ### Community Engagement
-  By integrating community features, QuicKeys™ fosters collaboration, knowledge-sharing, and camaraderie among keyboard enthusiasts, enriching the overall experience.
-
 ## Database Diagram
 
 <img src="https://i.postimg.cc/s2BNMVCq/441275610-954161973075718-2179090809214109059-n.png">
