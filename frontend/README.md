@@ -31,7 +31,6 @@
 ### Build Tools:
 - [**Node.js**](https://nodejs.org/en): Free, open-source, cross-platform JavaScript runtime environment
 - [**Vite**](https://vitejs.dev/): Local development server
-- [**Vitest**](https://vitest.dev/): Testing framework
 
 ### CSS Framework and Utilities:
 - [**Tailwind CSS**](https://tailwindcss.com/): Open-source CSS framework
