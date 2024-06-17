@@ -35,10 +35,8 @@
 ### CSS Framework and Utilities:
 - [**Tailwind CSS**](https://tailwindcss.com/): Open-source CSS framework
 
-### Animation Libraries:
-- [**Framer Motion**](https://www.framer.com/motion/): Motion library for React
-
 ### Graphics and 3D Libraries:
+- [**Framer Motion**](https://www.framer.com/motion/): Motion library for React
 - [**Three.js**](https://threejs.org/): Cross-browser JavaScript 3D library
 
 ## Tools Used
