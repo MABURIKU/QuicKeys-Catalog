@@ -105,7 +105,7 @@ DATABASES = {
         'NAME': 'quickeys-db',
         'USER': 'postgres',
         # 'PASSWORD': os.environ.get('QUICKEYS_DB_PASSWORD'),
-        'PASSWORD': 'admin',
+        'PASSWORD': 'Maburiku25!',
         'HOST': 'localhost',
         'PORT': '5432',
     }
