@@ -8,18 +8,6 @@
 [![Framer Motion](https://img.shields.io/badge/framer_motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 [![Three.js](https://img.shields.io/badge/three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org/)
 
-## Table of Contents
-- [Tech Stack](#tech-stack)
-    - [JavaScript Frameworks and Libraries](#javascript-frameworks-and-libraries)
-    - [Build Tools](#build-tools)
-    - [CSS Frameworks and Utilities](#css-framework-and-utilities)
-    - [Animation Libraries](#animation-libraries)
-    - [Graphics and 3D Libraries](#graphics-and-3d-libraries)
-- [Tools Used](#tools-used)
-- [Setup Guide](#setup-guide)
-    - [Requirements](#requirements)
-    - [Development Environment/Server Setup](#development-environmentserver-setup)
-
 ## Tech Stack
 
 ### JavaScript Frameworks and Libraries:
