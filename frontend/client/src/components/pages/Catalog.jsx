@@ -136,7 +136,11 @@ function Catalog() {
                           <div className="ItemCard-Sold-Out">Sold Out</div>
                         )}
                         <img
-                          className="transition-all duration-500 p-[5%] group-hover:scale-105"
+                          className="transition-all duration-500"
+                          src="/src/assets/Catalog Item Placeholder.svg">
+                        </img>
+                        <img
+                          className="absolute transition-all duration-500 p-[5%] group-hover:scale-105"
                           src={item.item_profile_picture_link}>
                         </img>
                       </div>
