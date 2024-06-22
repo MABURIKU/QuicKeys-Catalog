@@ -74,8 +74,12 @@ function Item() {
                                 <div alt={`${item.item_name} image`}>
                                     <Reveal>
                                         <img
-                                            className="transition-all duration-500 p-[5%] hover:scale-105"
+                                            className="absolute transition-all duration-500 p-[5%] hover:scale-105"
                                             src={item.item_profile_picture_link}>
+                                        </img>
+                                        <img
+                                            className="transition-all duration-500"
+                                            src="/src/assets/Catalog Item Placeholder.svg">
                                         </img>
                                     </Reveal>
                                 </div>
