@@ -66,7 +66,7 @@ function Item() {
                                     <div className="flex items-center gap-[15px]">
                                         <NavLink to="/" className="opacity-50 hover:opacity-75 cursor-pointer">Home</NavLink>
                                         <img className="max-h-[10px] opacity-50" src="/src/assets/icons/ICON - Arrow.png"/>
-                                        <NavLink to="/Shop" className="opacity-50 hover:opacity-75 cursor-pointer">Shop</NavLink>
+                                        <NavLink to="/Shop" className="opacity-50 hover:opacity-75 cursor-pointer">Catalog</NavLink>
                                         <img className="max-h-[10px] opacity-50" src="/src/assets/icons/ICON - Arrow.png"/>
                                         <p className="opacity-100 cursor-pointer">{item.item_type.item_type_name}</p>
                                     </div>
