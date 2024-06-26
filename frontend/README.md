@@ -25,12 +25,6 @@
 - [**Framer Motion**](https://www.framer.com/motion/): Motion library for React
 - [**Three.js**](https://threejs.org/): Cross-browser JavaScript 3D library
 
-## Tools Used
-- [**Visual Studio Code**](https://code.visualstudio.com/): Code editor
-- [**Git**](https://git-scm.com/): Free and open-source version control system
-- [**GitHub**](https://github.com): Online developer platform used to collaborate on software projects
-
-
 ## Setup Guide
 
 ### Requirements
