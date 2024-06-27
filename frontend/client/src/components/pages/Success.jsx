@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
+import { NavLink } from 'react-router-dom';
 import { Reveal } from '../Reveal'
 import transition from '../Transition'
-import { NavLink } from 'react-router-dom';
 
 function Successful() {
     return (
