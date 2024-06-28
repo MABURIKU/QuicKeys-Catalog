@@ -3,7 +3,6 @@
 ![Last Commit](https://img.shields.io/github/last-commit/MABURIKU/QuicKeys-Catalog?style=plastic&logo=github)
 ![Forks](https://img.shields.io/github/forks/MABURIKU/QuicKeys-Catalog?style=plastic&logo=github)
 ![Issues](https://img.shields.io/github/issues/MABURIKU/QuicKeys-Catalog?style=plastic&logo=github)
-![Issues Closed](https://img.shields.io/github/issues-closed/MABURIKU/QuicKeys-Catalog?style=plastic&logo=github)
 ![Pull Requests](https://img.shields.io/github/issues-pr/MABURIKU/QuicKeys-Catalog?style=plastic&logo=github)
 ![Pull Requests Closed](https://img.shields.io/github/issues-pr-closed/MABURIKU/QuicKeys-Catalog?style=plastic&logo=github)
 
