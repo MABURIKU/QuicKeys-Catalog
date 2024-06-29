@@ -4,22 +4,6 @@
 [![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
-## Table of Contents
-
-- [Tech Stack](#tech-stack)
-  - [Core Framework and Languages](#core-framework-and-languages)
-  - [API Framework](#api-framework)
-  - [Middleware](#middleware)
-  - [Authentication and Authorization](#authentication-and-authorization)
-  - [Database](#database)
-  - [Database Connector](#database-connector)
-- [Tools Used](#tools-used)
-- [Database Design](#database-design)
-- [Setup Guide](#setup-guide)
-  - [Requirements](#requirements)
-  - [Database Setup](#database-setup)
-  - [Development Server Setup](#development-server-setup)
-
 ## Tech Stack
 
 ### Core Framework and Languages:
