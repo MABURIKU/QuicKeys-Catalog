@@ -14,10 +14,6 @@
 - [**React Router**](https://reactrouter.com/en/main): JavaScript framework that enables client side routing
 - [**Axios**](https://axios-http.com/docs/intro): Promise-based HTTP Client for Node.js
 
-### Build Tools:
-- [**Node.js**](https://nodejs.org/en): Free, open-source, cross-platform JavaScript runtime environment
-- [**Vite**](https://vitejs.dev/): Local development server
-
 ### CSS Framework and Utilities:
 - [**Tailwind CSS**](https://tailwindcss.com/): Open-source CSS framework
 
