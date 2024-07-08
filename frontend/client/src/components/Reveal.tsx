@@ -7,7 +7,7 @@ interface Props {
 
 export const Reveal = ({ children } : Props ) => {
     const reference = useRef(null);
-    const isInView = useInView(reference, { once: true });
+    // const isInView = useInView(reference, { once: true });
 
     // const loadScroll = useAnimation();
     
