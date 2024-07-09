@@ -24,7 +24,9 @@ export const Reveal = ({ children } : Props ) => {
                     hidden: { opacity: 0, y: 75 },
                     visible: { opacity: 1, y: 0 },
                 }}
-                initial={{opacity: 0, y: 20}} whileInView={{opacity: 1, y: 0}} transition={{duration: 0.75}}>
+                initial={{opacity: 0, y: 20}} 
+                whileInView={{opacity: 1, y: 0}} 
+                transition={{duration: 0.75}}>
                     { children }
             </motion.div>
         </div>
