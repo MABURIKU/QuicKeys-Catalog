@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { Reveal } from '../Reveal'
 import transition from '../Transition'
 import { NavLink } from 'react-router-dom'
 import { apiClientWithCredentials } from '../../utils/ApiClient'
@@ -20,7 +19,6 @@ function CheckOut() {
           console.error('Error checking out:', error)
         }
 
-        // Navigate to success page
       }
 
       
