@@ -3,7 +3,6 @@
 [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/en)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Framer Motion](https://img.shields.io/badge/framer_motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 
 ## Tech Stack
 
@@ -16,7 +15,6 @@
 - [**Tailwind CSS**](https://tailwindcss.com/): Open-source CSS framework
 
 ### Graphics and 3D Libraries:
-- [**Framer Motion**](https://www.framer.com/motion/): Motion library for React
 - [**Three.js**](https://threejs.org/): Cross-browser JavaScript 3D library
 
 ## Setup Guide
