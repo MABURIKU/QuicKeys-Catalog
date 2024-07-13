@@ -14,9 +14,6 @@
 ### CSS Framework and Utilities:
 - [**Tailwind CSS**](https://tailwindcss.com/): Open-source CSS framework
 
-### Graphics and 3D Libraries:
-- [**Three.js**](https://threejs.org/): Cross-browser JavaScript 3D library
-
 ## Setup Guide
 
 ### Requirements
