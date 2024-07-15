@@ -8,7 +8,6 @@
 ### JavaScript Frameworks and Libraries:
 - [**React**](https://react.dev/): Free and open-source frontend JavaScript library
 - [**React Router**](https://reactrouter.com/en/main): JavaScript framework that enables client side routing
-- [**Axios**](https://axios-http.com/docs/intro): Promise-based HTTP Client for Node.js
 
 ### CSS Framework and Utilities:
 - [**Tailwind CSS**](https://tailwindcss.com/): Open-source CSS framework
