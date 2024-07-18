@@ -68,35 +68,34 @@ function CheckOut() {
                             <div className="pt-[20px] pb-[5px]">
                             </div>
                             {order.map((orderLine, index) => (
-  <div key={index}>
-    <div className="h-[20px]"/>
-    <div className="w-full max-w-[1200px]">
-      <div className="w-[750] h-full flex items-center justify-center">
-        <div className="gap-[10px] w-[531px]">
-          <div className="flex flex-cols-2 gap-[12px] sm:gap-[20px]">
-            <div className="ItemCard-Image-Check-Out">
-              <NavLink to={`/Item/${orderLine.item.item_id}`}>
-                <img
-                  className="transition-all duration-500 p-[5%] hover:scale-105"
-                  src={orderLine.item.item_profile_picture_link}
-                  alt={orderLine.item.item_name}
-                />
-              </NavLink>
-            </div>
-            <div className="flex justify-between">
-              <div>
-                <p>{orderLine.item.item_name}</p>
-                <p>Qty. {orderLine.order_quantity}</p>
-              </div>
-              <div className="mx-[50px]">₱{parseFloat(orderLine.item.item_price * orderLine.order_quantity).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-))}
-
+                              <div key={index}>
+                                <div className="h-[20px]"/>
+                                <div className="w-full max-w-[1200px]">
+                                  <div className="w-[750] h-full flex items-center justify-center">
+                                    <div className="gap-[10px] w-[531px]">
+                                      <div className="flex flex-cols-2 gap-[12px] sm:gap-[20px]">
+                                        <div className="ItemCard-Image-Check-Out">
+                                          <NavLink to={`/Item/${orderLine.item.item_id}`}>
+                                            <img
+                                              className="transition-all duration-500 p-[5%] hover:scale-105"
+                                              src={orderLine.item.item_profile_picture_link}
+                                              alt={orderLine.item.item_name}
+                                            />
+                                          </NavLink>
+                                        </div>
+                                        <div className="flex justify-between">
+                                          <div>
+                                            <p>{orderLine.item.item_name}</p>
+                                            <p>Qty. {orderLine.order_quantity}</p>
+                                          </div>
+                                          <div className="mx-[50px]">₱{parseFloat(orderLine.item.item_price * orderLine.order_quantity).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            ))}
 
                             <div className="h-[20px]"/>
 
@@ -164,26 +163,27 @@ function CheckOut() {
                             Shipping Information
                         </div>
                         {profile && userAddress && (
-  <>
-    <div className="flex h-[30px] w-[400px] my-[5px]">
-      Email: {profile.auth_user.username}
-    </div>
-    <div className="h-full w-[400px] flex flex-col my-[10px]">
-      <div className="flex h-[30px] w-[400px]">
-        Shipping Address
-      </div>
-      <div className="ml-2 border-2 border-black rounded-md overflow-hidden">
-        <p className="border-b-2 border-black p-2">Name: {profile.auth_user.first_name} {profile.auth_user.last_name}</p>
-        <p className="border-b-2 border-black p-2">{profile.contact_no}</p>
-        <p className="p-2">{userAddress.user_address}</p>
-      </div>
-    </div>
-  </>
-)}
+                          <>
+                            <div className="flex h-[30px] w-[400px] my-[5px]">
+                              Email: {profile.auth_user.username}
+                            </div>
+                            <div className="h-full w-[400px] flex flex-col my-[10px]">
+                              <div className="flex h-[30px] w-[400px]">
+                                Shipping Address
+                              </div>
+                              <div className="ml-2 border-2 border-black rounded-md overflow-hidden">
+                                <p className="border-b-2 border-black p-2">Name: {profile.auth_user.first_name} {profile.auth_user.last_name}</p>
+                                <p className="border-b-2 border-black p-2">{profile.contact_no}</p>
+                                <p className="p-2">{userAddress.user_address}</p>
+                              </div>
+                            </div>
+                          </>
+                        )}
 
                         <div className="h-[30px] w-[400px] flex justify-center my-[5px]">
                             Payment details
                         </div>
+
                         <div className="h-full w-[400px] flex flex-col">
                             <div className="flex h-[30px] w-[400px] items-center">
                                 Card Information
@@ -196,6 +196,7 @@ function CheckOut() {
                                 </div>
                             </div>
                         </div>
+
                         <div className="flex justify-center pt-[20px] pb-[5px]">
                           <NavLink to='/Success'>
                               <button className="transition-all duration-100 h-[50px] w-[400px] 
@@ -205,6 +206,7 @@ function CheckOut() {
                               </button>
                             </NavLink>
                         </div>
+                        
                     </div>
                 </div>
             </div>
