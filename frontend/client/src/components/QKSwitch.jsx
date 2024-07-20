@@ -25,6 +25,7 @@ function QKSwitch() {
             camera.position.set(0.5, 0.5, 0.9);
             camera.lookAt(0, 0.2, 0);
 
+            // Default Lights
             const ambientLight = new THREE.AmbientLight(0x35acff, 0.5);
             scene.add(ambientLight);
 
