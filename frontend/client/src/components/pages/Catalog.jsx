@@ -85,43 +85,43 @@ function Catalog() {
         </section>
 
         <section className="px-[25px] nm:px-[50px] my-[40px]">
-                <div className="flex flex-col items-center w-full">
-                    <div className="flex w-full max-w-[1600px] justify-between">
+            <div className="flex flex-col items-center w-full">
+                <div className="flex w-full max-w-[1600px] justify-between">
 
-                        <button className="flex items-center gap-2" onClick={toggleFilter}>
-                            <img className="Filter-Icon" src="./src/assets/icons/ICON - Filter.png"/>
-                            <p className="font-medium text-QKGreen hover:underline">Filter</p>
-                        </button>
-                        
-                        <div className={`Filter-Side ease-in-out delay-200 duration-1000 flex flex-col justify-between h-full 
-                        ${filterOpen ? 'bottom-[0%] sm:right-[0%] opacity-1 transition-all' : 'bottom-[-200%] opacity-0 sm:bottom-0 sm:right-[-200%]'}
-                        `}>
-                            <div>
-                              <div className="flex justify-between w-full">
-                                  <div>
-                                      <p className="text-QKGreen text-[25px] font-medium">Filter</p>
-                                      <p className="text-MainText/50 font-medium mt-[-5px]">{items.length} Items</p>
-                                  </div>
-                                  <img className="h-[30px] opacity-50 hover:opacity-100" onClick={toggleFilter} src="/src/assets/icons/ICON - Close.png"/>
+                    <button className="flex items-center gap-2" onClick={toggleFilter}>
+                        <img className="Filter-Icon" src="./src/assets/icons/ICON - Filter.png"/>
+                        <p className="font-medium text-QKGreen hover:underline">Filter</p>
+                    </button>
+                    
+                    <div className={`Filter-Side ease-in-out delay-200 duration-1000 flex flex-col justify-between h-full 
+                    ${filterOpen ? 'bottom-[0%] sm:right-[0%] opacity-1 transition-all' : 'bottom-[-200%] opacity-0 sm:bottom-0 sm:right-[-200%]'}
+                    `}>
+                        <div>
+                          <div className="flex justify-between w-full">
+                              <div>
+                                  <p className="text-QKGreen text-[25px] font-medium">Filter</p>
+                                  <p className="text-MainText/50 font-medium mt-[-5px]">{items.length} Items</p>
                               </div>
-                              <AccordionFilter
-                              selectedBrands={selectedBrands}
-                              setSelectedBrands={setSelectedBrands}
-                              selectedTypes={selectedTypes}
-                              setSelectedTypes={setSelectedTypes}
-                              />
-                            </div>
-                            <div className="flex justify-end w-full">
-                              <button className="Filter-Apply-BTN" onClick={toggleFilter}>
-                                Apply
-                              </button>
-                            </div>
+                              <img className="h-[30px] opacity-50 hover:opacity-100" onClick={toggleFilter} src="/src/assets/icons/ICON - Close.png"/>
+                          </div>
+                          <AccordionFilter
+                          selectedBrands={selectedBrands}
+                          setSelectedBrands={setSelectedBrands}
+                          selectedTypes={selectedTypes}
+                          setSelectedTypes={setSelectedTypes}
+                          />
                         </div>
-
-                        <div className={`Overlay transition-all duration-500 ${filterOpen ? 'opacity-1 backdrop-blur-sm' : 'opacity-0 pointer-events-none'}`} onClick={toggleFilter}/>
-                        <div>{items.length} Items</div>
+                        <div className="flex justify-end w-full">
+                          <button className="Filter-Apply-BTN" onClick={toggleFilter}>
+                            Apply
+                          </button>
+                        </div>
                     </div>
+
+                    <div className={`Overlay transition-all duration-500 ${filterOpen ? 'opacity-1 backdrop-blur-sm' : 'opacity-0 pointer-events-none'}`} onClick={toggleFilter}/>
+                    <div>{items.length} Items</div>
                 </div>
+            </div>
         </section>
 
         <div className="pb-[100px] px-[15px] nm:px-[50px]">
