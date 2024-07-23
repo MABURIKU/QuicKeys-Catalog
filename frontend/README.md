@@ -3,8 +3,6 @@
 [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/en)
 
-## Tech Stack
-
 ### JavaScript Frameworks and Libraries:
 - [**React**](https://react.dev/): Free and open-source frontend JavaScript library
 - [**React Router**](https://reactrouter.com/en/main): JavaScript framework that enables client side routing
