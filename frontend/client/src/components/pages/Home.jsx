@@ -17,10 +17,12 @@ function Home() {
                     <Reveal>
                         <img className="w-[100%] max-w-[1600px]" src="./src/assets/QuicKeys WORDMARK.svg" alt="QuicKeys WORDMARK" />
                     </Reveal>
+                    
                     <div className="absolute top-0 left-0 right-0 lg:right-[-550px] flex justify-center z-[-2] opacity-20 transition-all duration-500">
                         <img className="w-[100%] max-w-[1200px] lg:scale-[115%]" src="./src/assets/QuicKeys LOGOMARK [BG].svg" alt="QuicKeys LOGOMARK" />
                     </div>
                 </div>
+
                 <Reveal>
                     <div className="flex justify-center w-full">
                         <div className="flex w-[100%] max-w-[1600px] lg:px-[100px] lg:py-[10px]">
