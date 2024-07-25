@@ -34,6 +34,7 @@ function Home() {
                         </div>
                     </div>
                 </Reveal>
+
                 <Reveal>
                     <div className="flex justify-center w-full">
                         <div className="flex w-[100%] pt-[35px] max-w-[1600px] justify-center lg:justify-start lg:px-[100px] z-2">
@@ -41,6 +42,7 @@ function Home() {
                         </div>
                     </div>
                 </Reveal>
+
                 <Reveal>
                     <div className="flex justify-center w-full">
                         <div className="flex w-[100%] pt-[50px] lg:pt-[100px] max-w-[1600px] gap-[15px] justify-center lg:justify-start lg:px-[100px]">
@@ -51,8 +53,9 @@ function Home() {
                         </div>
                     </div>
                 </Reveal>
+                
+                {/* Animated QuicKeys Switch */}
                 <QKSwitch/>
-
 
                 <Reveal>
                     <div className="flex w-full justify-center mb-[100px]">
