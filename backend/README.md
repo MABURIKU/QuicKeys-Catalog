@@ -1,6 +1,6 @@
 # Quickeys™ Backend
 
-## Tech Stack
+## Stack
 
 ### Core Framework and Languages:
 
