@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Reveal } from '../Reveal';
-import transition from '../Transition';
 import { apiClientWithCredentials } from '../../utils/ApiClient';
+
 import LogoutButton from '../LogOutButton';
-import ScrollableDiv from '../ScrollableDiv';
+
+import transition from '../Transition';
 
 function Profile() {
     const [authUser, setAuthUser] = useState(null)
