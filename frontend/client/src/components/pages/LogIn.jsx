@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { apiClientWithCredentials, apiClient, setAuthToken } from '../../utils/ApiClient';
+
 import transition from '../Transition';
 
 
@@ -10,7 +11,8 @@ function LogIn() {
     password: '',
   });
   
-  // BOX ANIMATIONS
+  // INPUT ANIMATIONS
+  
   // Email
   const [emailActive, setEmailActive] = useState(false);
   const [emailFocused, setEmailFocused] = useState(false);

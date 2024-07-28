@@ -11,8 +11,6 @@ function Home() {
     return (
         <>
             <section className="w-[100%] pt-[100px] px-[15px] nm:px-[50px] min-h-[1000px] overflow-hidden">
-
-                
                 <div className="relative flex justify-center w-full z-[-10]">
                     <Reveal>
                         <img className="w-[100%] max-w-[1600px]" src="./src/assets/QuicKeys WORDMARK.svg" alt="QuicKeys WORDMARK" />
@@ -53,9 +51,8 @@ function Home() {
                         </div>
                     </div>
                 </Reveal>
-                
-                {/* Animated QuicKeys Switch */}
-                <QKSwitch/>
+
+                <QKSwitch/> {/* Animated QuicKeys™ Switch */}
 
                 <Reveal>
                     <div className="flex w-full justify-center mb-[100px]">
@@ -100,7 +97,6 @@ function Home() {
                         </div>
                     </div>
                 </Reveal>
-
             </section>
 
             <section className="flex justify-center w-full mb-[100px]">
